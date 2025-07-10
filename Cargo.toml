@@ -8,7 +8,7 @@ repository = "https://github.com/piot/metricator"
 
 [dependencies]
 num-traits = "0.2"
-monotonic-time-rs = "0.0.5"
+monotonic-time-rs = "0.0.9"
 
 [dev-dependencies]
-test-log = "0.2.16"
+test-log = "0.2.18"
