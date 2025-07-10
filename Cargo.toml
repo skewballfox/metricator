@@ -8,7 +8,10 @@ repository = "https://github.com/piot/metricator"
 
 [dependencies]
 num-traits = "0.2"
-monotonic-time-rs = "0.0.9"
+monotonic-time-rs = "0.0.10"
 
 [dev-dependencies]
 test-log = "0.2.18"
+
+[patch.crates-io]
+monotonic-time-rs = { git = "https://github.com/skewballfox/monotonic-time-rs.git" }
